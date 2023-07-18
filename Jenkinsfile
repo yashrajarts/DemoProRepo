@@ -3,7 +3,7 @@ pipeline{
         label 'linuxagent'
     }
     tools{
-        maven 'local_maven'
+        maven 'MAVEN'
     }
     stages{
         stage ('Build'){
